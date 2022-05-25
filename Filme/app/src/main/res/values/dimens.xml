@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamanho_imagem">250dp</dimen>
+    <dimen name="margem_imagem">36dp</dimen>
+    <dimen name="margem_texto">24dp</dimen>
+    <dimen name="tamanho_titulo">16sp</dimen>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Filme</string>
+    <string name="nome_filme">Shrek</string>
+    <string name="descricao_imagem">Imagem do Shrek com princesa Fiona e seus três filhinhos</string>
+</resources>
