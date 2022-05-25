@@ -1,18 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/titulo_pet"
+        android:textSize="@dimen/text_16"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/tam_20"/>
+    <ImageView
+        android:layout_width="@dimen/tam_200"
+        android:layout_height="@dimen/tam_200"
+        android:src="@drawable/miguel_mochileiro"
+        android:contentDescription="@string/pet_description"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/tam_20"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_pet"
+        android:textSize="@dimen/text_12"
+        android:layout_marginTop="@dimen/tam_20"
+        android:layout_marginStart="@dimen/tam_36"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/raca_pet"
+        android:layout_marginTop="@dimen/tam_20"
+        android:layout_marginStart="@dimen/tam_36"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/idade_pet"
+        android:layout_marginTop="@dimen/tam_20"
+        android:layout_marginStart="@dimen/tam_36"/>
+    <Button
+        android:id="@+id/botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensagem_botao"
+        android:layout_marginTop="@dimen/tam_20"
+        android:layout_margin="@dimen/tam_36"
+        android:backgroundTint="@color/cor_secundaria"
+        android:textSize="@dimen/text_14"
+        android:textAllCaps="true"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

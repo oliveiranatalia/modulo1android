@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Meu Pet</string>
+    <string name="titulo_pet">Essa é a foto do meu pet!</string>
+    <string name="nome_pet">Nome: Miguel F. Ferreira</string>
+    <string name="raca_pet">Raça do pet: Poodle</string>
+    <string name="idade_pet">Idade do pet: 13 anos</string>
+    <string name="mensagem_botao">MENSAGEM</string>
+    <string name="pet_description">Miguel no espaço com um capacete de astronauta</string>
 </resources>
