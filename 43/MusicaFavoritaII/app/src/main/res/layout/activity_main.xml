@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".home.MainActivity"
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imagemMain"
         android:layout_width="match_parent"
         android:layout_height="@dimen/tam_250"
         android:scaleType="fitXY"
@@ -23,14 +23,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="24dp"
         android:text="@string/titulo_musica"
         android:textSize="@dimen/text_16"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintTop_toBottomOf="@id/imageView" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagemMain" />
 
     <TextView
         android:id="@+id/tvTrecho"
@@ -48,11 +48,11 @@
         android:id="@+id/botao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/botao_text"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="40dp"
+        android:text="@string/botao_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvTrecho"/>
+        app:layout_constraintTop_toBottomOf="@id/tvTrecho" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
