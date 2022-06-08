@@ -30,14 +30,14 @@ class DetalheActivity : AppCompatActivity() {
     }
    private fun goToViewPagerTabLayout(){
        val detalhePagerAdapter = DetalhePagerAdapter(supportFragmentManager,lifecycle,infoBand)
-    binding.vpDetalhe!!.adapter = detalhePagerAdapter
+    binding.vpDetalhe.adapter = detalhePagerAdapter
     TabLayoutMediator(binding.tlDetalhe!!, binding.vpDetalhe!!) { tab, position ->
         tab.text = infoBand[position] }.attach()
    }
     private fun showRecyclerView(){
         addPhotos()
         binding.rvPhotos?.adapter = adapterPhotos
-        binding.rvPhotos?.layoutManager = GridLayoutManager(this,4)
+        binding.rvPhotos?.layoutManager = GridLayoutManager(this,2)
     }
     private fun addPhotos(){
         val photos = mutableListOf<Banda>()
