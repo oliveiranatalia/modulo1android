@@ -7,13 +7,4 @@
     android:layout_margin="20dp"
     tools:context=".info.PhotosFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvPhotos"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        android:layout_margin="10dp"
-        tools:ignore="MissingConstraints"
-        tools:itemCount="4"
-        tools:listitem="@layout/banda_item" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

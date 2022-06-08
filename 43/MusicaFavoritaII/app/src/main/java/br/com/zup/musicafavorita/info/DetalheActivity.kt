@@ -3,15 +3,18 @@ package br.com.zup.musicafavorita.info
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.Toast
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.zup.musicafavorita.R
 import br.com.zup.musicafavorita.databinding.ActivityDetalheBinding
+import br.com.zup.musicafavorita.info.adapter.BandaAdapter
 import br.com.zup.musicafavorita.info.adapter.DetalhePagerAdapter
-import com.google.android.material.tabs.TabLayoutMediator
+import br.com.zup.musicafavorita.model.Banda
 
 class DetalheActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetalheBinding
     private val infoBand = listOf("info","photos")
+    private val adapterPhotos: BandaAdapter by lazy { BandaAdapter(arrayListOf(), this::showRecyclerView) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +35,20 @@ class DetalheActivity : AppCompatActivity() {
     //TabLayoutMediator(binding.tlDetalhe, binding.vpDetalhe) { tab, position ->
     //    tab.text = infoBand[position] }.attach()
    }
+    private fun showRecyclerView(){
+        addPhotos()
+        binding.rvPhotos.adapter = adapterPhotos
+        binding.rvPhotos.layoutManager = GridLayoutManager(this,4)
+    }
+    private fun addPhotos(){
+        val photos = mutableListOf<Banda>()
+        photos.add(Banda(R.drawable.beatles3))
+        photos.add(Banda(R.drawable.beatles4))
+        photos.add(Banda(R.drawable.beatles5))
+        photos.add(Banda(R.drawable.beatles6))
+        adapterPhotos.update(photos)
+
+    }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(item.itemId == android.R.id.home){this.finish()
             return true

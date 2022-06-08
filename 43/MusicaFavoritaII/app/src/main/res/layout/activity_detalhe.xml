@@ -21,5 +21,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tlDetalhe" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPhotos"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints"
+        tools:itemCount="4"
+        tools:listitem="@layout/banda_item" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
