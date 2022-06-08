@@ -4,17 +4,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.zup.musicafavorita.R
 import br.com.zup.musicafavorita.databinding.ActivityDetalheBinding
 import br.com.zup.musicafavorita.info.adapter.BandaAdapter
 import br.com.zup.musicafavorita.info.adapter.DetalhePagerAdapter
 import br.com.zup.musicafavorita.model.Banda
+import com.google.android.material.tabs.TabLayoutMediator
 
 class DetalheActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetalheBinding
     private val infoBand = listOf("info","photos")
-    private val adapterPhotos: BandaAdapter by lazy { BandaAdapter(arrayListOf(), this::showRecyclerView) }
+    private val adapterPhotos: BandaAdapter by lazy { BandaAdapter(arrayListOf())}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,15 +30,14 @@ class DetalheActivity : AppCompatActivity() {
     }
    private fun goToViewPagerTabLayout(){
        val detalhePagerAdapter = DetalhePagerAdapter(supportFragmentManager,lifecycle,infoBand)
-    //TODO checar chamada segura e vp2
-    //binding.vpDetalhe.adapter = detalhePagerAdapter
-    //TabLayoutMediator(binding.tlDetalhe, binding.vpDetalhe) { tab, position ->
-    //    tab.text = infoBand[position] }.attach()
+    binding.vpDetalhe!!.adapter = detalhePagerAdapter
+    TabLayoutMediator(binding.tlDetalhe!!, binding.vpDetalhe!!) { tab, position ->
+        tab.text = infoBand[position] }.attach()
    }
     private fun showRecyclerView(){
         addPhotos()
-        binding.rvPhotos.adapter = adapterPhotos
-        binding.rvPhotos.layoutManager = GridLayoutManager(this,4)
+        binding.rvPhotos?.adapter = adapterPhotos
+        binding.rvPhotos?.layoutManager = GridLayoutManager(this,4)
     }
     private fun addPhotos(){
         val photos = mutableListOf<Banda>()
