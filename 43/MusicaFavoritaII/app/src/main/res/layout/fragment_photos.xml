@@ -9,11 +9,11 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvPhotos"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_margin="10dp"
+        tools:ignore="MissingConstraints"
         tools:itemCount="4"
-        tools:listitem="@layout/banda_item"
-        tools:ignore="MissingConstraints" />
+        tools:listitem="@layout/banda_item" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

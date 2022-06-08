@@ -30,21 +30,19 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvInfo"
         app:layout_constraintTop_toBottomOf="@id/imagemDetalhe" />
 
     <TextView
         android:id="@+id/tvInfo"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginHorizontal="20dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:justificationMode="inter_word"
         android:text="@string/descricao_banda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvnomeBanda"
-        app:layout_constraintVertical_bias="0.0"
-        tools:targetApi="o" />
+        app:layout_constraintTop_toBottomOf="@id/tvnomeBanda" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

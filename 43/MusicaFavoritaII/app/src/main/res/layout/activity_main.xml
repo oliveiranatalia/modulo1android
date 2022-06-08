@@ -36,7 +36,6 @@
         android:id="@+id/tvTrecho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:text="@string/musica"
         android:textSize="@dimen/text_16"
         android:layout_marginTop="40dp"
