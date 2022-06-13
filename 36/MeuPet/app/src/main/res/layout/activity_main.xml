@@ -21,25 +21,15 @@
         android:contentDescription="@string/pet_description"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/tam_20"/>
+
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/nome_pet"
-        android:textSize="@dimen/text_12"
+        android:layout_marginStart="@dimen/tam_36"
         android:layout_marginTop="@dimen/tam_20"
-        android:layout_marginStart="@dimen/tam_36"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/raca_pet"
-        android:layout_marginTop="@dimen/tam_20"
-        android:layout_marginStart="@dimen/tam_36"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/idade_pet"
-        android:layout_marginTop="@dimen/tam_20"
-        android:layout_marginStart="@dimen/tam_36"/>
+        android:text="@string/info_pet"
+        android:textSize="@dimen/text_12" />
+
     <Button
         android:id="@+id/botao"
         android:layout_width="match_parent"
