@@ -3,6 +3,8 @@ package br.com.zup.tabuada.home
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import br.com.zup.tabuada.ERROR
+import br.com.zup.tabuada.NUMBER
 import br.com.zup.tabuada.calculo.CalculoTabuada
 import br.com.zup.tabuada.databinding.ActivityMainBinding
 
@@ -14,18 +16,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        clear()
+
         binding.botaoCalcular.setOnClickListener{
-            getTabuada()
+            getSendNumber()
         }
     }
-    private fun getTabuada(){
+    private fun getSendNumber(){
         this.number = binding.inputTabuada.text.toString()
-        val intent = Intent(this,CalculoTabuada::class.java).apply{
-            putExtra("number",number.toInt())
+        if(!checkInfo()){
+            val intent = Intent(this,CalculoTabuada::class.java).apply {putExtra(NUMBER,number)}
+            startActivity(intent)
+            clear()
         }
-        startActivity(intent)
-        clear()
+    }
+    private fun checkInfo():Boolean{
+        if(this.number.isEmpty()){
+            binding.inputTabuada.error = ERROR
+            return true
+        }
+        return false
     }
     private fun clear(){
         binding.inputTabuada.text.clear()
