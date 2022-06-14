@@ -7,12 +7,20 @@
 
     <fragment
         android:id="@+id/cadastroFragment"
-        android:name="br.com.zup.recursoshumanos.CadastroFragment"
-        android:label="fragment_cadastro"
-        tools:layout="@layout/fragment_cadastro" />
+        android:name="br.com.zup.recursoshumanos.fragments.CadastroFragment"
+        android:label="Recursos Humanos"
+        tools:layout="@layout/fragment_cadastro" >
+        <action
+            android:id="@+id/action_cadastroFragment_to_informacoesFragment"
+            app:destination="@id/informacoesFragment" />
+    </fragment>
     <fragment
         android:id="@+id/informacoesFragment"
-        android:name="br.com.zup.recursoshumanos.InformacoesFragment"
-        android:label="fragment_informacoes"
-        tools:layout="@layout/fragment_informacoes" />
+        android:name="br.com.zup.recursoshumanos.fragments.InformacoesFragment"
+        android:label="Recursos Humanos"
+        tools:layout="@layout/fragment_informacoes" >
+        <action
+            android:id="@+id/action_informacoesFragment_to_cadastroFragment"
+            app:destination="@id/cadastroFragment" />
+    </fragment>
 </navigation>
