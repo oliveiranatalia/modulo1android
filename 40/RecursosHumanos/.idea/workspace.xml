@@ -13,12 +13,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e3f6dc-5c7f-4e46-a2f7-778ad450e1e8" name="Changes" comment="Habilitar parcelize e construir objeto">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/Constantes.kt" afterDir="false" />
+    <list default="true" id="86e3f6dc-5c7f-4e46-a2f7-778ad450e1e8" name="Changes" comment="Update versionamento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/fragments/CadastroFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/fragments/CadastroFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/Constantes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/Constantes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/fragments/InformacoesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/fragments/InformacoesFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/model/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/model/Funcionario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655233180266</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implementar logica pra navigation">
+      <created>1655245171523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655245171523</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update versionamento">
+      <created>1655245187292</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655245187292</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +229,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update versionamento" />
     <MESSAGE value="Habilitar binding" />
     <MESSAGE value="Habilitar navigation e navhost" />
     <MESSAGE value="Corrigir path dos fragmentos" />
@@ -226,6 +237,8 @@
     <MESSAGE value="Implementar layout informacoes fragment" />
     <MESSAGE value="Definicao layout final" />
     <MESSAGE value="Habilitar parcelize e construir objeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Habilitar parcelize e construir objeto" />
+    <MESSAGE value="Implementar logica pra navigation" />
+    <MESSAGE value="Update versionamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update versionamento" />
   </component>
 </project>

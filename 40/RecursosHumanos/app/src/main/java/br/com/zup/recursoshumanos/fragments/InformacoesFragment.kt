@@ -5,7 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import br.com.zup.recursoshumanos.HORA
 import br.com.zup.recursoshumanos.KEY
+import br.com.zup.recursoshumanos.SAL
+import br.com.zup.recursoshumanos.VAL
 import br.com.zup.recursoshumanos.databinding.FragmentInformacoesBinding
 import br.com.zup.recursoshumanos.model.Funcionario
 
@@ -29,10 +32,20 @@ class InformacoesFragment : Fragment() {
         val func = arguments?.getParcelable<Funcionario>(KEY)
         func?.let {objeto = it}
     }
+    private fun calculo(): Double {
+        getInfo()
+        val valor = objeto.getValor()
+        val horas = objeto.getHoras()
+        return horas * valor
+    }
     private fun showInfo(){
         getInfo()
+        val hora = "$HORA ${objeto.getHoras()}h"
+        val valor = "$VAL ${objeto.getValor()}"
+        val salario = "$SAL ${calculo()}"
         binding.tvNomeFunc.text = objeto.getNome()
-        binding.tvHorasFunc.text = objeto.getHoras().toString()
-        binding.tvValorHora.text = objeto.getValor().toString()
+        binding.tvHorasFunc.text = hora
+        binding.tvValorHora.text = valor
+        binding.tvResultado.text = salario
     }
 }
