@@ -8,4 +8,5 @@
     <dimen name="larg_100dp">100dp</dimen>
     <dimen name="marg_30">30dp</dimen>
     <dimen name="marg_40">40dp</dimen>
+    <dimen name="marg_50">50dp</dimen>
 </resources>
