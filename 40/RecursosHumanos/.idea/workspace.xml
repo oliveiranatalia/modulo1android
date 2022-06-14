@@ -13,10 +13,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e3f6dc-5c7f-4e46-a2f7-778ad450e1e8" name="Changes" comment="Update versionamento">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/Constantes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/Constantes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/fragments/InformacoesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/fragments/InformacoesFragment.kt" afterDir="false" />
+    <list default="true" id="86e3f6dc-5c7f-4e46-a2f7-778ad450e1e8" name="Changes" comment="Implementar logica fragment informacoes e finalizar app">
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_informacoes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_informacoes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655245187292</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implementar logica fragment informacoes e finalizar app">
+      <created>1655247024939</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655247024939</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +244,7 @@
     <MESSAGE value="Habilitar parcelize e construir objeto" />
     <MESSAGE value="Implementar logica pra navigation" />
     <MESSAGE value="Update versionamento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update versionamento" />
+    <MESSAGE value="Implementar logica fragment informacoes e finalizar app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar logica fragment informacoes e finalizar app" />
   </component>
 </project>
