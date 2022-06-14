@@ -9,15 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e3f6dc-5c7f-4e46-a2f7-778ad450e1e8" name="Changes" comment="Habilitar binding">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/fragments/CadastroFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/zup/recursoshumanos/fragments/InformacoesFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cadastro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_informacoes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="86e3f6dc-5c7f-4e46-a2f7-778ad450e1e8" name="Changes" comment="Habilitar navigation e navhost">
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cadastro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cadastro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_informacoes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_informacoes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655217466989</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Habilitar navigation e navhost">
+      <created>1655226848220</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655226848220</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update versionamento" />
     <MESSAGE value="Habilitar binding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Habilitar binding" />
+    <MESSAGE value="Habilitar navigation e navhost" />
+    <option name="LAST_COMMIT_MESSAGE" value="Habilitar navigation e navhost" />
   </component>
 </project>
