@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="marg_16">16dp</dimen>
-    <dimen name="text_13">12sp</dimen>
-    <dimen name="img_50">50dp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="tam_50">50dp</dimen>
     <dimen name="text_14">14sp</dimen>
-    <dimen name="img_86">86dp</dimen>
+    <dimen name="tam_86">86dp</dimen>
     <dimen name="text_18">18sp</dimen>
+
 </resources>
