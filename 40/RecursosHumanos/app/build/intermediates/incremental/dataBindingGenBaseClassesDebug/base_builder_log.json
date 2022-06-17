@@ -1,0 +1,25 @@
+{
+  "dependencies": {},
+  "class_names_log": {
+    "mappings": {
+      "activity_main": {
+        "qualified_name": "br.com.zup.recursoshumanos.databinding.ActivityMainBinding",
+        "module_package": "br.com.zup.recursoshumanos.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_cadastro": {
+        "qualified_name": "br.com.zup.recursoshumanos.databinding.FragmentCadastroBinding",
+        "module_package": "br.com.zup.recursoshumanos.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_informacoes": {
+        "qualified_name": "br.com.zup.recursoshumanos.databinding.FragmentInformacoesBinding",
+        "module_package": "br.com.zup.recursoshumanos.databinding",
+        "variables": {},
+        "implementations": []
+      }
+    }
+  }
+}
