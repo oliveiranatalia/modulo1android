@@ -1984,7 +1984,6 @@ dimen img_45
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
-dimen larg_100dp
 dimen m3_alert_dialog_action_bottom_padding
 dimen m3_alert_dialog_action_top_padding
 dimen m3_alert_dialog_corner_size
@@ -2833,7 +2832,6 @@ id listMode
 id list_item
 id locale
 id ltr
-id mainText
 id masked
 id match_constraint
 id match_parent
@@ -3060,6 +3058,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvAppDesc
 id tvHorasFunc
 id tvNomeFunc
 id tvResultado
@@ -3308,6 +3307,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string app_desc
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -3411,7 +3411,6 @@ string path_password_strike_through
 string salar_rec
 string search_menu_title
 string status_bar_notification_info_overflow
-string text_main
 string valor_hr
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

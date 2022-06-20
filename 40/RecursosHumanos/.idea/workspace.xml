@@ -13,13 +13,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e3f6dc-5c7f-4e46-a2f7-778ad450e1e8" name="Changes" comment="Finalizado" />
+    <list default="true" id="a03d99cc-0ae5-4cf2-b6ef-be0300a40396" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\natalia.oliveira\.android\avd\Pixel_4_XL_API_32.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\natalia.oliveira\.android\avd\Pixel_2_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -28,32 +28,36 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="navigationResourceFile" />
-        <option value="valueResourceFile" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="navigationResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="2AZVxm9JSEhczwTRYNcWIQw4XeJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2AotYy3CYq9dBYak9mq3DXdtFiu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="NAVIGATION" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -123,113 +127,17 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\natalia.oliveira\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="86e3f6dc-5c7f-4e46-a2f7-778ad450e1e8" name="Changes" comment="" />
-      <created>1655217342917</created>
+      <changelist id="a03d99cc-0ae5-4cf2-b6ef-be0300a40396" name="Changes" comment="" />
+      <created>1655687816798</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1655217342917</updated>
+      <updated>1655687816798</updated>
     </task>
-    <task id="LOCAL-00001" summary="Update versionamento">
-      <created>1655217391888</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1655217391888</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Habilitar binding">
-      <created>1655217466989</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1655217466989</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Habilitar navigation e navhost">
-      <created>1655226848220</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1655226848220</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Corrigir path dos fragmentos">
-      <created>1655226999915</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1655226999915</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Inserir requisitos de negocio">
-      <created>1655228079047</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1655228079047</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Implementar layout cadastro fragment">
-      <created>1655229819503</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1655229819503</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Implementar layout informacoes fragment">
-      <created>1655230972813</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1655230972813</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Definicao layout final">
-      <created>1655230991424</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1655230991424</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Habilitar parcelize e construir objeto">
-      <created>1655233180265</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1655233180266</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Implementar logica pra navigation">
-      <created>1655245171523</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1655245171523</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Update versionamento">
-      <created>1655245187292</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1655245187292</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Implementar logica fragment informacoes e finalizar app">
-      <created>1655247024939</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1655247024939</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Alinhar estetica layouts">
-      <created>1655247349045</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1655247349045</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Finalizado">
-      <created>1655262889249</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1655262889249</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,23 +150,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Habilitar binding" />
-    <MESSAGE value="Habilitar navigation e navhost" />
-    <MESSAGE value="Corrigir path dos fragmentos" />
-    <MESSAGE value="Inserir requisitos de negocio" />
-    <MESSAGE value="Implementar layout cadastro fragment" />
-    <MESSAGE value="Implementar layout informacoes fragment" />
-    <MESSAGE value="Definicao layout final" />
-    <MESSAGE value="Habilitar parcelize e construir objeto" />
-    <MESSAGE value="Implementar logica pra navigation" />
-    <MESSAGE value="Update versionamento" />
-    <MESSAGE value="Implementar logica fragment informacoes e finalizar app" />
-    <MESSAGE value="Alinhar estetica layouts" />
-    <MESSAGE value="Finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizado" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>

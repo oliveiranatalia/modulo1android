@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -19,10 +19,7 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final LinearLayoutCompat rootView;
-
-  @NonNull
-  public final TextView mainText;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final FragmentContainerView navHostFragment;
@@ -30,17 +27,21 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final Toolbar toolbar;
 
-  private ActivityMainBinding(@NonNull LinearLayoutCompat rootView, @NonNull TextView mainText,
-      @NonNull FragmentContainerView navHostFragment, @NonNull Toolbar toolbar) {
+  @NonNull
+  public final TextView tvAppDesc;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull FragmentContainerView navHostFragment, @NonNull Toolbar toolbar,
+      @NonNull TextView tvAppDesc) {
     this.rootView = rootView;
-    this.mainText = mainText;
     this.navHostFragment = navHostFragment;
     this.toolbar = toolbar;
+    this.tvAppDesc = tvAppDesc;
   }
 
   @Override
   @NonNull
-  public LinearLayoutCompat getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -65,12 +66,6 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.mainText;
-      TextView mainText = ViewBindings.findChildViewById(rootView, id);
-      if (mainText == null) {
-        break missingId;
-      }
-
       id = R.id.nav_host_fragment;
       FragmentContainerView navHostFragment = ViewBindings.findChildViewById(rootView, id);
       if (navHostFragment == null) {
@@ -83,8 +78,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayoutCompat) rootView, mainText, navHostFragment,
-          toolbar);
+      id = R.id.tvAppDesc;
+      TextView tvAppDesc = ViewBindings.findChildViewById(rootView, id);
+      if (tvAppDesc == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, navHostFragment, toolbar,
+          tvAppDesc);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

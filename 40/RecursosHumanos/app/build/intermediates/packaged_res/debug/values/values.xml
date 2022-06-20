@@ -3,7 +3,7 @@
     <color name="azul_claro">#4DD0E1</color>
     <color name="azul_escuro">#009FAF</color>
     <color name="black">#FF000000</color>
-    <color name="cinza_claro">#efefef</color>
+    <color name="cinza_claro">#e0e0e0</color>
     <color name="laranja">#FFB74D</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -12,7 +12,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="img_45">45dp</dimen>
-    <dimen name="larg_100dp">100dp</dimen>
     <dimen name="marg_16">16dp</dimen>
     <dimen name="marg_30">30dp</dimen>
     <dimen name="marg_40">40dp</dimen>
@@ -20,18 +19,18 @@
     <dimen name="text_12">12sp</dimen>
     <dimen name="text_14">14sp</dimen>
     <dimen name="text_16">16sp</dimen>
+    <string name="app_desc">Esse é o nosso aplicativo de cadastro de funcionarios, aqui vamos cadastrar as informações e calcular o salário do funcionário</string>
     <string name="app_name">Recursos Humanos</string>
     <string name="cadastro">Cadastro de informações</string>
-    <string name="calcular">calcular salário</string>
-    <string name="desc_img">Vetor de ícone de pessoa na cor cinza</string>
+    <string name="calcular">calcular salario</string>
+    <string name="desc_img">Vetor de pessoa na cor cinza</string>
     <string name="hint_nome">Nome e sobrenome</string>
     <string name="horas_trab">Horas trabalhadas</string>
     <string name="salar_rec">Salário a receber</string>
-    <string name="text_main">Esse é o nosso aplicativo de cadastro de funcionários.\nAqui vamos cadastrar as informações e calcular o salário do funcionário.</string>
     <string name="valor_hr">Valor por hora</string>
     <style name="Theme.RecursosHumanos" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/azul_claro</item>
         <item name="colorPrimaryVariant">@color/azul_escuro</item>
         <item name="colorOnPrimary">@color/white</item>
         

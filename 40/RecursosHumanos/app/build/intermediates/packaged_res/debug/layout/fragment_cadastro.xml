@@ -15,6 +15,7 @@
         android:text="@string/cadastro"
         android:textSize="@dimen/text_16"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:layout_marginHorizontal="@dimen/marg_16"
         android:layout_marginTop="@dimen/marg_30"
         app:layout_constraintTop_toTopOf="parent"
