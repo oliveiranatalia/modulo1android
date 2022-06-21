@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AlbumDetailFragment">
+
+    <ImageView
+        android:id="@+id/ivAlbumDetail"
+        android:layout_width="403dp"
+        android:layout_height="221dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/album_um"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvNomeAlbum"/>
+
+    <TextView
+        android:id="@+id/tvNomeAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_title"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_16"
+        android:layout_marginTop="@dimen/tam_30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivAlbumDetail"
+        app:layout_constraintBottom_toTopOf="@id/tvDescAlbum"/>
+
+    <TextView
+        android:id="@+id/tvDescAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_title"
+        android:textSize="@dimen/text_12"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/tam_30"
+        android:layout_marginHorizontal="@dimen/tam_30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNomeAlbum"
+        app:layout_constraintBottom_toTopOf="@id/tvInfoAlbum"/>
+
+    <TextView
+        android:id="@+id/tvInfoAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tam_30"
+        android:layout_marginTop="@dimen/tam_50"
+        android:text="@string/song"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDescAlbum"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/albumsFragment">
+    <fragment
+        android:id="@+id/albumsFragment"
+        android:name="br.com.zup.musicafavorita.fragments.AlbumsFragment"
+        android:label="Banda favorita"
+        tools:layout="@layout/fragment_albums" >
+        <action
+            android:id="@+id/action_albumsFragment_to_albumDetailFragment"
+            app:destination="@id/albumDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/albumDetailFragment"
+        android:name="br.com.zup.musicafavorita.fragments.AlbumDetailFragment"
+        android:label="Banda favorita" />
+</navigation>
