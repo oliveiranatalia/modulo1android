@@ -10,16 +10,16 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    <ImageView
-        android:id="@+id/ivItem"
-        android:layout_width="@dimen/img_size"
-        android:layout_height="@dimen/img_size"
-        android:src="@drawable/animal"
-        android:contentDescription="@string/img_desc"
-        android:layout_margin="@dimen/margin_16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        <ImageView
+            android:id="@+id/ivItem"
+            android:layout_width="@dimen/img_size"
+            android:layout_height="@dimen/img_size"
+            android:src="@drawable/animal"
+            android:contentDescription="@string/img_desc"
+            android:layout_margin="@dimen/margin_16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
         <TextView
             android:id="@+id/tvItem"

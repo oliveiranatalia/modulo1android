@@ -1,4 +1,4 @@
-package br.com.zup.zoologico.home.adapter
+package br.com.zup.zoologico.register.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
