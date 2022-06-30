@@ -13,13 +13,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a03d99cc-0ae5-4cf2-b6ef-be0300a40396" name="Changes" comment="" />
+    <list default="true" id="a03d99cc-0ae5-4cf2-b6ef-be0300a40396" name="Changes" comment="Update versionamento" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\natalia.oliveira\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\natalia.oliveira\.android\avd\Resizable_API_32_1.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -138,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655687816798</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update versionamento">
+      <created>1656616539104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656616539104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,10 +158,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Update versionamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update versionamento" />
   </component>
 </project>
