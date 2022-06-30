@@ -30,7 +30,7 @@
         android:layout_marginTop="@dimen/marg_16"
         android:hint="@string/hint_nome"
         android:importantForAutofill="no"
-        android:inputType="textPersonName"
+        android:inputType="textCapWords"
         android:minHeight="48dp"
         android:textSize="@dimen/text_14"
         app:layout_constraintEnd_toEndOf="parent"

@@ -20,7 +20,8 @@
         android:layout_marginHorizontal="@dimen/marg_16"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvNomeFunc"/>
 
     <ImageView
         android:id="@+id/ivIcone"
