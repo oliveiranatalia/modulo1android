@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Zoologico</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Zoológico</string>
+    <string name="app_desc">Adicione aqui o nome do animal que você quer adicionar no app e sua descrição. Use a criatividade!</string>
+    <string name="animal">Animal</string>
+    <string name="desc">Descrição</string>
+    <string name="bv_add">adicionar</string>
 </resources>
