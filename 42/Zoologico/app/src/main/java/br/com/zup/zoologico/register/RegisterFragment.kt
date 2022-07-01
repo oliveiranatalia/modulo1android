@@ -17,8 +17,8 @@ import br.com.zup.zoologico.model.Animal
 
 class RegisterFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding
+    private var animalList = arrayListOf<Animal>()
     private val adapter: AnimalAdapter by lazy { AnimalAdapter(arrayListOf(), ::animalDetail) }
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -30,34 +30,27 @@ class RegisterFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        adapter.listUpdate(animalList)
         binding.bvAdd.setOnClickListener{
-            addAnimal()
+            getAnimal()
         }
     }
-    private fun addAnimal(){
-        val animalList = mutableListOf<Animal>()
-        val animal = getAnimal()
-        if(animal != null){
-            animalList.add(animal)
-            adapter.listUpdate(animalList)
-            showList()
-        }
-    }
-    private fun getAnimal(): Animal?{
+    private fun getAnimal(){
         val name = binding.etName.text.toString()
         val description = binding.etDesc.text.toString()
         if(name.isNotEmpty() && description.isNotEmpty()){
+            animalList.add(Animal(name, description))
+            adapter.listUpdate(animalList)
+            getRecyclerView()
             clear()
-            return Animal(name, description)
         }else{
             binding.etName.error = REQUIRED
             binding.etDesc.error = REQUIRED
-            return null
         }
     }
-    private fun showList(){
+    private fun getRecyclerView(){
         binding.rvLista.adapter = adapter
-        binding.rvLista.layoutManager = LinearLayoutManager(this.context, LinearLayoutManager.HORIZONTAL,false)
+        binding.rvLista.layoutManager = LinearLayoutManager(context)
     }
     private fun clear(){
         binding.etName.text.clear()
